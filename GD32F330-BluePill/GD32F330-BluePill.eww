@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\GD32F330-BluePill.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>_all</name>
+      <member>
+        <project>GD32F330-BluePill</project>
+        <configuration>Debug</configuration>
+      </member>
+      <member>
+        <project>GD32F330-BluePill</project>
+        <configuration>Release</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>Release</name>
+      <member>
+        <project>GD32F330-BluePill</project>
+        <configuration>Release</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
